@@ -1,121 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>GSurveysController</members>
+        <members>GSurveysController_Test</members>
+        <members>GettingStartedController</members>
+        <members>GettingStartedController_Test</members>
+        <members>LexInputFieldCompCtrl</members>
+        <members>LexInputFieldCompCtrl_Test</members>
+        <members>Message</members>
+        <members>Message_Test</members>
+        <members>ReportFinderUtil</members>
+        <members>SFQuestion</members>
+        <members>SurveyAndQuestionController</members>
+        <members>SurveyAndQuestionController_Test</members>
+        <members>SurveyManagerController</members>
+        <members>SurveyManagerController_Test</members>
+        <members>SurveySitesUtil</members>
+        <members>SurveyTestingUtil</members>
+        <members>TrialCustomerPortalHomePageController</members>
+        <members>Utilities</members>
+        <members>Utilities_Test</members>
+        <members>ViewSurveyController</members>
+        <members>ViewSurveyController_Test</members>
+        <members>superSort</members>
+        <members>viewShareSurveyComponentController</members>
+        <members>viewShareSurveyComponentController_Test</members>
+        <members>viewSurveyResultsComponentController</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>LexInputField</members>
+        <members>uiMessage</members>
+        <members>viewShareSurveyComponent</members>
+        <members>viewSurveyResultsComponent</members>
         <name>ApexComponent</name>
     </types>
     <types>
-        <members>*</members>
+        <members>ChatterAnswersAgentView</members>
+        <members>ChatterAnswersChangePassword</members>
+        <members>ChatterAnswersForgotPassword</members>
+        <members>ChatterAnswersForgotPasswordConfirm</members>
+        <members>ChatterAnswersHelp</members>
+        <members>ChatterAnswersLogin</members>
+        <members>ChatterAnswersRegistration</members>
+        <members>GSurveys</members>
+        <members>Getting_Started_With_Survey_Force</members>
+        <members>SurveyManagerPage</members>
+        <members>SurveyPage</members>
+        <members>TakeSurvey</members>
+        <members>TrialCustomerPortalHomePage</members>
+        <members>Trial_Tour</members>
+        <members>ca_tour_main</members>
+        <members>ca_tour_style</members>
+        <members>scc_tour_main</members>
+        <members>scc_tour_style</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
+        <members>FAQ__kav.Answer__c</members>
+        <members>FAQ__kav.Question__c</members>
+        <members>SurveyQuestionResponse__c.Response__c</members>
+        <members>SurveyQuestionResponse__c.SurveyTaker__c</members>
+        <members>SurveyQuestionResponse__c.Survey_Question__c</members>
+        <members>SurveyQuestionResponse__c.of_Time_Question_was_Responded_to__c</members>
+        <members>SurveyTaker__c.Case__c</members>
+        <members>SurveyTaker__c.Contact__c</members>
+        <members>SurveyTaker__c.Survey__c</members>
+        <members>SurveyTaker__c.Taken__c</members>
+        <members>SurveyTaker__c.User__c</members>
+        <members>Survey_Question__c.Choices__c</members>
+        <members>Survey_Question__c.OrderNumber__c</members>
+        <members>Survey_Question__c.Question__c</members>
+        <members>Survey_Question__c.Required__c</members>
+        <members>Survey_Question__c.Survey__c</members>
+        <members>Survey_Question__c.Total_Responses__c</members>
+        <members>Survey_Question__c.Type__c</members>
+        <members>Survey__c.Cohort__c</members>
+        <members>Survey__c.Hide_Survey_Name__c</members>
+        <members>Survey__c.Submit_Response__c</members>
+        <members>Survey__c.Survey_Container_CSS__c</members>
+        <members>Survey__c.Survey_Header__c</members>
+        <members>Survey__c.Thank_You_Text__c</members>
+        <members>Survey__c.URL__c</members>
+        <members>Survey__c.thankYouLink__c</members>
+        <members>Survey__c.thankYouText__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>*</members>
-        <name>AssignmentRules</name>
+        <members>LABS_SF_AddQuestion</members>
+        <members>LABS_SF_Anonymous</members>
+        <members>LABS_SF_Answer_as</members>
+        <members>LABS_SF_Cancel</members>
+        <members>LABS_SF_Chatter</members>
+        <members>LABS_SF_Chatter_Link</members>
+        <members>LABS_SF_Community</members>
+        <members>LABS_SF_Edit</members>
+        <members>LABS_SF_Email_Link_Anonymous</members>
+        <members>LABS_SF_Email_Link_w_Contact_Case_Merge</members>
+        <members>LABS_SF_Email_Link_w_Contact_Merge</members>
+        <members>LABS_SF_External_Please_Create_Site</members>
+        <members>LABS_SF_For_community_assistance_with_Survey_Force</members>
+        <members>LABS_SF_Getting_Help</members>
+        <members>LABS_SF_HeaderAndThankYou</members>
+        <members>LABS_SF_Installation_Guide</members>
+        <members>LABS_SF_Learn_More</members>
+        <members>LABS_SF_MakeANewSurvey</members>
+        <members>LABS_SF_MakeNewSurvey</members>
+        <members>LABS_SF_Make_a_Sample_Survey</members>
+        <members>LABS_SF_Next_Steps</members>
+        <members>LABS_SF_PleaseEnterTheList</members>
+        <members>LABS_SF_Question</members>
+        <members>LABS_SF_Required</members>
+        <members>LABS_SF_RequiredQuestion</members>
+        <members>LABS_SF_Resources</members>
+        <members>LABS_SF_Results</members>
+        <members>LABS_SF_SELECTTYPE</members>
+        <members>LABS_SF_Salesforce_Answers</members>
+        <members>LABS_SF_Save</members>
+        <members>LABS_SF_SaveOrder</members>
+        <members>LABS_SF_SelectQuestionType</members>
+        <members>LABS_SF_Share</members>
+        <members>LABS_SF_Share_My_Survey</members>
+        <members>LABS_SF_Sharing_Options</members>
+        <members>LABS_SF_SubmitSurvey</members>
+        <members>LABS_SF_SurveyForceIsOpenSource</members>
+        <members>LABS_SF_Survey_Force_is_unsupported</members>
+        <members>LABS_SF_Survey_Force_on_Github</members>
+        <members>LABS_SF_Survey_Submitted_Thank_you</members>
+        <members>LABS_SF_To_submit_ideas_or_issues</members>
+        <members>LABS_SF_User_Guide</members>
+        <members>LABS_SF_View_Results_In_New_Window</members>
+        <members>LABS_SF_View_Sample_Survey</members>
+        <members>LABS_SF_Welcome_to_Survey_Force</members>
+        <members>LABS_SF_X1_Create_a_sample_survey</members>
+        <members>LABS_SF_X2_External_Setup_Site</members>
+        <members>LABS_SF_X3_Start_creating_your_first_survey</members>
+        <members>LABS_SF_You_have_already_taken_this_survey</members>
+        <members>LABS_SF_Your_next_few_steps_are_easy</members>
+        <members>LABS_SF_please_visit</members>
+        <name>CustomLabel</name>
     </types>
     <types>
-        <members>*</members>
+        <members>CustomLabels</members>
         <name>CustomLabels</name>
     </types>
     <types>
-        <members>*</members>
-        <members>Account</members>
-        <members>AccountContactRole</members>
-        <members>Activity</members>
-        <members>Asset</members>
-        <members>AssistantProgress</members>
-        <members>Campaign</members>
-        <members>CampaignMember</members>
-        <members>Case</members>
-        <members>CaseContactRole</members>
-        <members>Contact</members>
-        <members>ContentVersion</members>
-        <members>Contract</members>
-        <members>ContractContactRole</members>
-        <members>DuplicateRecordItem</members>
-        <members>DuplicateRecordSet</members>
-        <members>Event</members>
-        <members>FeedItem</members>
-        <members>ForecastingCategoryMapping</members>
-        <members>Lead</members>
-        <members>Macro</members>
-        <members>MacroAction</members>
-        <members>MacroInstruction</members>
-        <members>Opportunity</members>
-        <members>OpportunityCompetitor</members>
-        <members>OpportunityContactRole</members>
-        <members>OpportunityLineItem</members>
-        <members>Order</members>
-        <members>OrderItem</members>
-        <members>PartnerRole</members>
-        <members>Pricebook2</members>
-        <members>PricebookEntry</members>
-        <members>Product2</members>
-        <members>Site</members>
-        <members>Solution</members>
-        <members>StreamingChannel</members>
-        <members>Task</members>
-        <members>User</members>
+        <members>FAQ__kav</members>
+        <members>SurveyQuestionResponse__c</members>
+        <members>SurveyTaker__c</members>
+        <members>Survey_Question__c</members>
+        <members>Survey__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
-        <name>CustomPageWebLink</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Getting_Started</members>
+        <members>Getting_Started_With_Survey_Force</members>
+        <members>SurveyTaker__c</members>
+        <members>Survey_Question__c</members>
+        <members>Survey__c</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>*</members>
-        <name>Document</name>
+        <name>FlowDefinition</name>
     </types>
     <types>
-        <members>*</members>
-        <name>EmailTemplate</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Trial - Customer Portal Home Page</members>
         <name>HomePageComponent</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Dashboard Home Page Default</members>
+        <members>Trial - Customer Portal Home Page</members>
         <name>HomePageLayout</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Account-Account Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Case-Case Layout</members>
+        <members>Case-Portal Case Layout</members>
+        <members>CaseMilestone-Case Milestone Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Contract-Contract Layout</members>
+        <members>ContractLineItem-Contract Line Item Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>Entitlement-Entitlement Layout</members>
+        <members>Event-Event Layout</members>
+        <members>FAQ__kav-How To Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>ServiceContract-Service Contract Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
+        <members>SocialPost-Social Post Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>SurveyQuestionResponse__c-Survey Question Answer Layout</members>
+        <members>SurveyTaker__c-SurveyTaker Layout</members>
+        <members>Survey_Question__c-Survey Question Layout</members>
+        <members>Survey__c-Survey Layout</members>
+        <members>Task-Task Layout</members>
+        <members>User-User Layout</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Letterhead</name>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewThisWeek</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.MyDelegatedActivities</members>
+        <members>Activity.MyTeamsActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <members>Activity.UpcomingEvents</members>
+        <members>Asset.AllAssets</members>
+        <members>Campaign.AllActiveCampaigns</members>
+        <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>Case.Sample_Cases</members>
+        <members>Case.Trial_Activities</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Won</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
+        <members>Product2.AllProducts</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
+        <members>SurveyTaker__c.All</members>
+        <members>Survey_Question__c.All</members>
+        <members>Survey__c.standard_view</members>
+        <members>User.ActiveUsers</members>
+        <members>User.AdminUsers</members>
+        <members>User.AllUsers</members>
+        <name>ListView</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Queue</name>
+        <members>Admin</members>
+        <name>Profile</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Case.SendEmail</members>
+        <members>LogACall</members>
+        <members>NewEvent</members>
+        <members>NewTask</members>
+        <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
+        <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
+        <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
+        <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>ServiceCloudLogo</members>
+        <members>SurveyForce</members>
+        <members>SurveyForce_SLDS</members>
+        <members>SurveyForce_UserGuide</members>
+        <members>SurveyForce_jquery</members>
+        <members>SurveyForce_jquery_ui</members>
+        <members>SurveyForce_svg4everybody</members>
+        <members>TrialPortalBanner</members>
+        <members>scc_tour_images</members>
         <name>StaticResource</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Workflow</name>
+        <members>Account.AltavistaNews</members>
+        <members>Account.GoogleMaps</members>
+        <members>Account.GoogleNews</members>
+        <members>Account.GoogleSearch</members>
+        <members>Account.HooversProfile</members>
+        <members>Account.YahooMaps</members>
+        <members>Campaign.ViewAllCampaignMembers</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Contact.GoogleMaps</members>
+        <members>Contact.GoogleSearch</members>
+        <members>Contact.SendGmail</members>
+        <members>Contact.YahooMaps</members>
+        <members>Contact.YahooWeather</members>
+        <members>Lead.AltavistaNews</members>
+        <members>Lead.GoogleMaps</members>
+        <members>Lead.GoogleNews</members>
+        <members>Lead.GoogleSearch</members>
+        <members>Lead.HooversProfile</members>
+        <members>Lead.SendGmail</members>
+        <members>Lead.YahooMaps</members>
+        <name>WebLink</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>Settings</name>
-    </types>
-    <version>37.0</version>
+    <version>38.0</version>
 </Package>
