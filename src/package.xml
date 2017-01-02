@@ -76,6 +76,7 @@
         <members>Survey_Question__c.Survey__c</members>
         <members>Survey_Question__c.Total_Responses__c</members>
         <members>Survey_Question__c.Type__c</members>
+        <members>Survey__c.Alpha__c</members>
         <members>Survey__c.Cohort__c</members>
         <members>Survey__c.Delta__c</members>
         <members>Survey__c.Hide_Survey_Name__c</members>
