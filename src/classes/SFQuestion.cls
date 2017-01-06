@@ -1,9 +1,9 @@
 /**
- * Renaming old "Question" to "SFQuestion" class
- * This is to avoid problem with "Question" object which is added by Chatter Answers
+ * Renaming old "Question" to "SFQuestion" class.
+ * This is to avoid problem with "Question" object which is added by Chatter Answers.
  *
  * Class: question
- *  Retrieves the question information and puts it in the question object
+ *  Retrieves the question information and puts it in the question object.
  *
  */
 
